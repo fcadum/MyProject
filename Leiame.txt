@@ -1,0 +1,98 @@
+	Roteiro público do GitHub
+
+❇️ Veja o roteiro oficial do produto público do GitHub 1
+
+Nosso roteiro de produtos é onde você pode aprender sobre quais recursos estamos trabalhando, em que estágio eles estão e quando esperamos trazê-los para você. Tem alguma pergunta ou comentário sobre itens no roteiro? Compartilhe seu feedback por meio de discussões de feedback público do GitHub .
+
+O repositório do roadmap é para comunicar o roadmap do GitHub. Os problemas existentes são atualmente somente leitura, e estamos bloqueando as conversas, conforme começamos. Limites de interação também estão em vigor para garantir que 
+os problemas se originem do GitHub. Estamos planejando iterar no formato do próprio roadmap, e vemos potencial para nos envolver mais em discussões sobre o futuro dos produtos e recursos do GitHub. Se você tiver feedback sobre este 
+repositório do roadmap em si, como a forma como os problemas são apresentados, informe-nos por meio do feedback geral nas discussões de feedback público do GitHub .
+
+Guia para o roteiro
+Cada item no roteiro é um problema, com um rótulo que indica cada um dos seguintes:
+
+Uma fase de lançamento que descreve a próxima fase esperada do item do roteiro. Veja abaixo um guia para as fases de lançamento.
+
+Uma área de recurso que indica a área do produto à qual o item pertence. Para uma lista de áreas de produtos atuais, veja abaixo.
+
+Um recurso que indica o recurso ou produto ao qual o item pertence. Para uma lista de recursos atuais, veja abaixo.
+
+Um ou mais rótulos de SKU de produto que indicam em quais SKUs de produto esperamos que o recurso esteja disponível. Para uma lista de SKUs de produtos atuais, veja abaixo.
+
+Um ou mais modelos de implantação (nuvem, servidor e/ou ae). Onde não declarado, os recursos geralmente sairão primeiro na Nuvem e seguirão no Servidor e GHAE no GA ou logo depois.
+
+Depois que um recurso for entregue, o rótulo de envio será aplicado ao problema do roteiro e o problema será fechado com um comentário com link para a postagem relevante do Changelog .
+
+Fases de liberação
+As fases de lançamento indicam os estágios pelos quais o produto ou recurso passa, desde os testes iniciais até a disponibilidade geral.
+
+alpha: Principalmente para testes e feedback
+Disponibilidade limitada, requer acordo de pré-lançamento. Recursos ainda em desenvolvimento pesado e sujeitos a alterações. Não para uso em produção, e nenhuma documentação, SLAs ou suporte fornecido.
+
+beta: Disponível publicamente em capacidade total ou limitada
+Recursos quase completos e documentados. Cronograma e requisitos para GA geralmente publicados. Nenhum SLA ou suporte fornecido.
+
+ga: Geralmente disponível para todos os clientes
+Pronto para uso em produção com SLA associado e obrigações de suporte técnico. Aproximadamente 1-2 trimestres a partir do Beta.
+
+Alguns dos nossos recursos ainda podem estar em estágios exploratórios e não têm prazo disponível. Eles estão incluídos no roteiro apenas para feedback inicial. Eles são marcados da seguinte forma:
+
+em design:
+Recurso em fase de descoberta. Decidimos construir esse recurso, mas ainda estamos descobrindo como .
+
+explorando:
+Recurso em consideração. Estamos considerando construir esse recurso e coletar feedback sobre ele.
+
+Fases de liberação - Para GHES
+Alguns recursos podem ser marcados com um rótulo GHES 3.X, o que indica que o recurso também ficará disponível para clientes do Github Enterprise Server. Abaixo estão os números da versão de lançamento e os trimestres de lançamento esperados ( Observação: essas datas estão sujeitas a alterações ).
+
+Datas de lançamento da versão GHES :
+
+Número da versão	Trimestre de Lançamento	Notas de Lançamento
+3.5	2º trimestre de 2022	Notas de Lançamento
+3.6	3º trimestre de 2022	Notas de Lançamento
+3.7	4º trimestre de 2022	-
+3.8	1º trimestre de 2023	-
+Etapas do roteiro
+O roteiro é organizado em um quadro de projeto para dar uma ideia de quão longe cada item está no horizonte. Cada produto ou recurso é adicionado a uma coluna específica do quadro de projeto de acordo com o trimestre em que se espera que seja enviado em seguida. Certifique-se de ler o aviso legal abaixo, pois o roteiro está sujeito a alterações, especialmente mais adiante na linha do tempo. Você também encontrará uma coluna Exploratória , que é usada em conjunto com os rótulos de fase de lançamento em design e exploração para quando nenhum prazo ainda estiver disponível.
+
+O GitHub Enterprise Server tem lançamentos principais trimestrais e lançamentos secundários mensais. Assim que soubermos qual versão estamos entregando um recurso, atualizaremos o problema para indicar essa informação.
+
+Áreas de destaque
+A seguir está uma lista de nossas áreas de produtos atuais:
+
+código: Experiências de código (Repositórios, Pull Requests, Gists)
+planejamento: Ferramentas de planejamento e acompanhamento (Problemas, Projetos)
+code-to-cloud: DevOps de código para nuvem (ações, pacotes)
+colaboração: Recursos de colaboração (Páginas, Wikis, Discussões)
+segurança e conformidade: Recursos de segurança e conformidade de código
+admin-server: Recursos administrativos específicos do GitHub Enterprise Server
+admin-cloud: Recursos administrativos específicos do GitHub Cloud
+comunidades: Comunidade e características sociais
+ecossistema: Recursos do ecossistema e da API
+aprendizagem: Recursos de educação e aprendizagem
+insights: Recursos de aprendizado contínuo e insights
+client-apps: Aplicativos cliente (Desktop, Mobile)
+outro: Outros recursos
+Recurso
+A seguir está uma lista de nossos recursos e produtos atuais, com rótulos distintos para filtragem:
+
+ações: Ações do GitHub
+documentos: Documentação do GitHub
+pacotes: Pacotes GitHub
+páginas: Páginas do GitHub
+Mais rótulos serão adicionados no futuro, conforme necessário.
+
+SKUs de produtos
+A seguir está uma lista de nossos SKUs de produtos atuais.
+
+all: Disponível para todos os usuários, incluindo uma camada gratuita. Diferentes SKUs podem ter diferentes níveis de funcionalidade.
+equipe do github: Equipe do GitHub
+github enterprise: GitHub Enterprise (Nuvem e Servidor)
+github one: GitHub One (Nuvem e Servidor)
+github ae: GitHub AE (GHAE)
+segurança avançada do github: Segurança avançada do GitHub (complemento para GHE)
+github insights: GitHub Insights (complemento para GHE)
+laboratório de aprendizagem do github: GitHub Learning Lab (complemento para GHE)
+Isenção de responsabilidade
+Qualquer declaração neste repositório que não seja puramente histórica é considerada uma declaração prospectiva. As declarações prospectivas incluídas neste repositório são baseadas em informações disponíveis para o GitHub na data em que são feitas, e o GitHub não assume nenhuma obrigação de atualizar quaisquer declarações prospectivas. O roteiro do produto prospectivo não representa um compromisso, garantia, obrigação ou promessa de entregar qualquer produto ou recurso, ou de entregar qualquer produto e recurso em qualquer data específica, e tem como objetivo delinear os planos gerais de desenvolvimento. Os clientes não devem confiar neste roteiro para tomar qualquer decisão de compra.

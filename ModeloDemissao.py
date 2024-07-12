@@ -1,0 +1,23 @@
+# Inserção de dados...
+print("Digite o nome da Empresa:")
+NomeEmpresa = (input)
+print("Digite o nome do Gestor ou responsável de RH:")
+GestorRH = (input)
+print("Digite o Cargo Atual:")
+Cargo = (input)
+print("Digite a data de início AP:")
+InícioAP = (input)
+print("Digite o fim do AP:")
+FimAP = (input)
+print("Digite local e data:")
+Data = (input)
+print("Digite sua assinatura")
+Assinatura = (input)
+print ("Digite seu nome completo:")
+Funcionário = (input)
+
+#impressão da Carta de Demissão...
+print(f"À {NomeEmpresa},")
+print(f"Prezado(A) {GestorRH},")
+print(f"Venho por meio desta carta comunicar formalmente meu pedido de demissão do cargo de {Cargo}.")
+print(f"Estarei à disposição da empresa durante o aviso prévio, no período de {InícioAP} até {FimAP}.")
