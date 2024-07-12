@@ -1,1 +1,1 @@
-print("Demontração;;;")
+print("Demontração...")
