@@ -1,5 +1,5 @@
       #Demonstração das tarefas dos dias da semana...
-print("Digite o dia da semama: ")
+print("Digite número correspondente ao dia da semama que gostaria de verificar: ")
 print("2. Segunda-feira")
 print("3. Terça-feira")
 print("4. Quarta-feira")
@@ -27,5 +27,5 @@ match dia:
         print("Limpar a piscina.")
     case _:
         print("Você precisa inserir um dia da semana válido!!")
-        
+    
 print("Bom serviço!!!")
