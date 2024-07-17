@@ -1,0 +1,14 @@
+# Solicita ao usuário que digite as 4 notas trimestrais
+nota1 = float(input("Digite a nota do 1º trimestre: "))
+nota2 = float(input("Digite a nota do 2º trimestre: "))
+nota3 = float(input("Digite a nota do 3º trimestre: "))
+nota4 = float(input("Digite a nota do 4º trimestre: "))
+
+# Calcula a média das notas
+media = (nota1 + nota2 + nota3 + nota4) / 4
+
+# Verifica se a média é menor que 6 e exibe a mensagem apropriada
+if media >= 6:
+    print("Aluno aprovado!")
+else:
+    print("Aluno reprovado!")
