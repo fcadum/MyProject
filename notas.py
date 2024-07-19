@@ -10,3 +10,9 @@ elif media >= 6:
     print("Aluno aprovado direto.")
 else:    
     print("Aluno em recuperação.")
+
+    nota3 = float(input("Digite a nota da recuperação: "))
+    if nota3 >= 5:
+        print("Aprovado na recuperação!")
+    if nota3 < 5:
+        print("Reprovado na recuperação!")
